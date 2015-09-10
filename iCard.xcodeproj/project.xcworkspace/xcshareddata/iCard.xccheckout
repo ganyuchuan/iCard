@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F5BA193-654D-4A4E-A51B-93906BE2436D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D16B6D2C9634E6723B7D80C9AE8F4A1A192F117A</key>
+		<string>https://github.com/ganyuchuan/iCard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iCard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D16B6D2C9634E6723B7D80C9AE8F4A1A192F117A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ganyuchuan/iCard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D16B6D2C9634E6723B7D80C9AE8F4A1A192F117A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D16B6D2C9634E6723B7D80C9AE8F4A1A192F117A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iCard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

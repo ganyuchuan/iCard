@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180FBBC81BA08A860029CAA7 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FBBC71BA08A860029CAA7 /* EditViewController.m */; };
+		180FBBE61BA08AE60029CAA7 /* img_bg_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 180FBBC91BA08AE50029CAA7 /* img_bg_00.png */; };
+		180FBC051BA08B3D0029CAA7 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FBC041BA08B3D0029CAA7 /* QRCodeViewController.m */; };
+		180FBC081BA094800029CAA7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FBC071BA094800029CAA7 /* User.m */; };
+		180FBC0A1BA09FBC0029CAA7 /* img_bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 180FBC091BA09FBC0029CAA7 /* img_bg.gif */; };
+		184A96A11B9C76F800EEEDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A96A01B9C76F800EEEDDB /* main.m */; };
+		184A96A41B9C76F800EEEDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A96A31B9C76F800EEEDDB /* AppDelegate.m */; };
+		184A96A71B9C76F800EEEDDB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A96A61B9C76F800EEEDDB /* MainViewController.m */; };
+		184A96AA1B9C76F800EEEDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A96A81B9C76F800EEEDDB /* Main.storyboard */; };
+		184A96AC1B9C76F800EEEDDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A96AB1B9C76F800EEEDDB /* Images.xcassets */; };
+		184A96AF1B9C76F800EEEDDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A96AD1B9C76F800EEEDDB /* LaunchScreen.xib */; };
+		184A96BB1B9C76F800EEEDDB /* iCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A96BA1B9C76F800EEEDDB /* iCardTests.m */; };
+		18FAD9AE1BA1B8AE002426D4 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD9AB1BA1B8AE002426D4 /* FLAnimatedImage.m */; };
+		18FAD9AF1BA1B8AE002426D4 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD9AD1BA1B8AE002426D4 /* FLAnimatedImageView.m */; };
+		18FAD9B21BA1C4C7002426D4 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD9B11BA1C4C7002426D4 /* Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184A96B51B9C76F800EEEDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A96931B9C76F700EEEDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A969A1B9C76F700EEEDDB;
+			remoteInfo = iCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180FBBC61BA08A860029CAA7 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		180FBBC71BA08A860029CAA7 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		180FBBC91BA08AE50029CAA7 /* img_bg_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_bg_00.png; path = Images/img_bg_00.png; sourceTree = "<group>"; };
+		180FBC031BA08B3D0029CAA7 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		180FBC041BA08B3D0029CAA7 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		180FBC061BA094800029CAA7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		180FBC071BA094800029CAA7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		180FBC091BA09FBC0029CAA7 /* img_bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img_bg.gif; sourceTree = "<group>"; };
+		184A969B1B9C76F800EEEDDB /* iCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A969F1B9C76F800EEEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A96A01B9C76F800EEEDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184A96A21B9C76F800EEEDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184A96A31B9C76F800EEEDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184A96A51B9C76F800EEEDDB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		184A96A61B9C76F800EEEDDB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		184A96A91B9C76F800EEEDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184A96AB1B9C76F800EEEDDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184A96AE1B9C76F800EEEDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		184A96B41B9C76F800EEEDDB /* iCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A96B91B9C76F800EEEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A96BA1B9C76F800EEEDDB /* iCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCardTests.m; sourceTree = "<group>"; };
+		18FAD9AA1BA1B8AD002426D4 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		18FAD9AB1BA1B8AE002426D4 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		18FAD9AC1BA1B8AE002426D4 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		18FAD9AD1BA1B8AE002426D4 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		18FAD9B01BA1C4C7002426D4 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		18FAD9B11BA1C4C7002426D4 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184A96981B9C76F700EEEDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A96B11B9C76F800EEEDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184A96921B9C76F700EEEDDB = {
+			isa = PBXGroup;
+			children = (
+				184A969D1B9C76F800EEEDDB /* iCard */,
+				184A96B71B9C76F800EEEDDB /* iCardTests */,
+				184A969C1B9C76F800EEEDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184A969C1B9C76F800EEEDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184A969B1B9C76F800EEEDDB /* iCard.app */,
+				184A96B41B9C76F800EEEDDB /* iCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184A969D1B9C76F800EEEDDB /* iCard */ = {
+			isa = PBXGroup;
+			children = (
+				184A96A21B9C76F800EEEDDB /* AppDelegate.h */,
+				184A96A31B9C76F800EEEDDB /* AppDelegate.m */,
+				184A96A51B9C76F800EEEDDB /* MainViewController.h */,
+				184A96A61B9C76F800EEEDDB /* MainViewController.m */,
+				180FBBC61BA08A860029CAA7 /* EditViewController.h */,
+				180FBBC71BA08A860029CAA7 /* EditViewController.m */,
+				180FBC031BA08B3D0029CAA7 /* QRCodeViewController.h */,
+				180FBC041BA08B3D0029CAA7 /* QRCodeViewController.m */,
+				180FBC061BA094800029CAA7 /* User.h */,
+				180FBC071BA094800029CAA7 /* User.m */,
+				18FAD9B01BA1C4C7002426D4 /* Helper.h */,
+				18FAD9B11BA1C4C7002426D4 /* Helper.m */,
+				18FAD9AA1BA1B8AD002426D4 /* FLAnimatedImage.h */,
+				18FAD9AB1BA1B8AE002426D4 /* FLAnimatedImage.m */,
+				18FAD9AC1BA1B8AE002426D4 /* FLAnimatedImageView.h */,
+				18FAD9AD1BA1B8AE002426D4 /* FLAnimatedImageView.m */,
+				184A96A81B9C76F800EEEDDB /* Main.storyboard */,
+				184A96AB1B9C76F800EEEDDB /* Images.xcassets */,
+				184A96AD1B9C76F800EEEDDB /* LaunchScreen.xib */,
+				184A97001B9C881400EEEDDB /* Images */,
+				184A969E1B9C76F800EEEDDB /* Supporting Files */,
+			);
+			path = iCard;
+			sourceTree = "<group>";
+		};
+		184A969E1B9C76F800EEEDDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184A969F1B9C76F800EEEDDB /* Info.plist */,
+				184A96A01B9C76F800EEEDDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184A96B71B9C76F800EEEDDB /* iCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				184A96BA1B9C76F800EEEDDB /* iCardTests.m */,
+				184A96B81B9C76F800EEEDDB /* Supporting Files */,
+			);
+			path = iCardTests;
+			sourceTree = "<group>";
+		};
+		184A96B81B9C76F800EEEDDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184A96B91B9C76F800EEEDDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184A97001B9C881400EEEDDB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				180FBC091BA09FBC0029CAA7 /* img_bg.gif */,
+				180FBBC91BA08AE50029CAA7 /* img_bg_00.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184A969A1B9C76F700EEEDDB /* iCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A96BE1B9C76F800EEEDDB /* Build configuration list for PBXNativeTarget "iCard" */;
+			buildPhases = (
+				184A96971B9C76F700EEEDDB /* Sources */,
+				184A96981B9C76F700EEEDDB /* Frameworks */,
+				184A96991B9C76F700EEEDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCard;
+			productName = iCard;
+			productReference = 184A969B1B9C76F800EEEDDB /* iCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184A96B31B9C76F800EEEDDB /* iCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A96C11B9C76F800EEEDDB /* Build configuration list for PBXNativeTarget "iCardTests" */;
+			buildPhases = (
+				184A96B01B9C76F800EEEDDB /* Sources */,
+				184A96B11B9C76F800EEEDDB /* Frameworks */,
+				184A96B21B9C76F800EEEDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A96B61B9C76F800EEEDDB /* PBXTargetDependency */,
+			);
+			name = iCardTests;
+			productName = iCardTests;
+			productReference = 184A96B41B9C76F800EEEDDB /* iCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184A96931B9C76F700EEEDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = huxiu;
+				TargetAttributes = {
+					184A969A1B9C76F700EEEDDB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					184A96B31B9C76F800EEEDDB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 184A969A1B9C76F700EEEDDB;
+					};
+				};
+			};
+			buildConfigurationList = 184A96961B9C76F700EEEDDB /* Build configuration list for PBXProject "iCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184A96921B9C76F700EEEDDB;
+			productRefGroup = 184A969C1B9C76F800EEEDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A969A1B9C76F700EEEDDB /* iCard */,
+				184A96B31B9C76F800EEEDDB /* iCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184A96991B9C76F700EEEDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FBC0A1BA09FBC0029CAA7 /* img_bg.gif in Resources */,
+				184A96AA1B9C76F800EEEDDB /* Main.storyboard in Resources */,
+				184A96AF1B9C76F800EEEDDB /* LaunchScreen.xib in Resources */,
+				180FBBE61BA08AE60029CAA7 /* img_bg_00.png in Resources */,
+				184A96AC1B9C76F800EEEDDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A96B21B9C76F800EEEDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184A96971B9C76F700EEEDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FBC051BA08B3D0029CAA7 /* QRCodeViewController.m in Sources */,
+				18FAD9AE1BA1B8AE002426D4 /* FLAnimatedImage.m in Sources */,
+				180FBBC81BA08A860029CAA7 /* EditViewController.m in Sources */,
+				18FAD9AF1BA1B8AE002426D4 /* FLAnimatedImageView.m in Sources */,
+				180FBC081BA094800029CAA7 /* User.m in Sources */,
+				184A96A71B9C76F800EEEDDB /* MainViewController.m in Sources */,
+				184A96A41B9C76F800EEEDDB /* AppDelegate.m in Sources */,
+				18FAD9B21BA1C4C7002426D4 /* Helper.m in Sources */,
+				184A96A11B9C76F800EEEDDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A96B01B9C76F800EEEDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A96BB1B9C76F800EEEDDB /* iCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184A96B61B9C76F800EEEDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A969A1B9C76F700EEEDDB /* iCard */;
+			targetProxy = 184A96B51B9C76F800EEEDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184A96A81B9C76F800EEEDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A96A91B9C76F800EEEDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184A96AD1B9C76F800EEEDDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A96AE1B9C76F800EEEDDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184A96BC1B9C76F800EEEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184A96BD1B9C76F800EEEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184A96BF1B9C76F800EEEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184A96C01B9C76F800EEEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184A96C21B9C76F800EEEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCard.app/iCard";
+			};
+			name = Debug;
+		};
+		184A96C31B9C76F800EEEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCard.app/iCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184A96961B9C76F700EEEDDB /* Build configuration list for PBXProject "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A96BC1B9C76F800EEEDDB /* Debug */,
+				184A96BD1B9C76F800EEEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A96BE1B9C76F800EEEDDB /* Build configuration list for PBXNativeTarget "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A96BF1B9C76F800EEEDDB /* Debug */,
+				184A96C01B9C76F800EEEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A96C11B9C76F800EEEDDB /* Build configuration list for PBXNativeTarget "iCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A96C21B9C76F800EEEDDB /* Debug */,
+				184A96C31B9C76F800EEEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184A96931B9C76F700EEEDDB /* Project object */;
+}
